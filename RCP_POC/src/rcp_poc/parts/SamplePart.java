@@ -28,7 +28,7 @@ public class SamplePart {
 		parent.setLayout(new GridLayout(1, false));
 
 		Text txtInput = new Text(parent, SWT.BORDER);
-		txtInput.setMessage("Enter text to mark part");
+		txtInput.setMessage("Enter text to mark part---------------------------");
 		txtInput.addModifyListener(e -> part.setDirty(true));
 		txtInput.setLayoutData(new GridData(GridData.FILL_HORIZONTAL));
 
